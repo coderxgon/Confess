@@ -1,0 +1,97 @@
+body{
+  background: #81abc1;
+  color: #5004c3;
+  font-family: "Geist Mono", monospace;
+  
+}
+
+.firsttext{
+  background: #51ff00;
+  width: 380px;
+  border-radius: 3px;
+  border: 3px solid #6464d3;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 350px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #fdfdce;
+}
+
+#confessionForm {
+  background-color: #bbdff2;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#confessionForm .char-count {
+  font-size: 12px;
+  color: #555;
+}
+
+#confessionsList {
+  margin-top: 20px;
+}
+
+.confession {
+  background-color: #ffb8b8;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.reaction {
+  margin-top: 10px;
+}
+
+.heart-btn {
+  font-size: 18px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #e74c3c;
+}
+
+.heart-btn span {
+  margin-left: 8px;
+}
+
+.posted-date {
+  font-size: 12px;
+  color: #777;
+  margin-top: 10px;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* 1s duration, ease-in-out for smooth transition */
+}
+
+/* When the element is added to the DOM or when a class is added, fade in */
+.fade-in.visible {
+  opacity: 1;
+}
